@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Penworld Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header/Nav -->
+  <header class="navbar">
+    <img src="https://i.ibb.co/tpMrDZ7g/penworldlogo.png" alt="Penworld Logo" class="logo">
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Journaling</a></li>
+        <li><a href="#">Luxury</a></li>
+        <li><a href="#">Gifting</a></li>
+        <li><a href="#">Antique</a></li>
+        <li><a href="#">Accessories</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <header class="hero-header">
+  <div class="hero-overlay">
+    <h1><span class="highlight">Penworld</span></h1>
+    <p class="subtitle">A fine selection of fountain pens you will admire</p>
+  </div>
+</header>
+
+
+
+  <!-- Categories Section -->
+  <section class="categories">
+    <div class="category-grid">
+      <div class="category-item">
+        <img src="https://i.ibb.co/cS4YDhjB/journalingpen.jpg" alt="Journaling Pens">
+        <p>Journaling</p>
+      </div>
+      <div class="category-item">
+        <img src="https://i.ibb.co/wZYsRrF1/luxurypen.jpg" alt="Luxury Pens">
+        <p>Luxury</p>
+      </div>
+      <div class="category-item">
+        <img src="https://i.ibb.co/v6gxqRZC/giftpen.jpg" alt="Gifting Pens">
+        <p>Gifting</p>
+      </div>
+      <div class="category-item">
+        <img src="https://i.ibb.co/rK1wdFWJ/antiquefountainpen.jpg" alt="Antique Pens">
+        <p>Antique Collection</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
+<section class="luxury-products">
+  <h2 class="section-heading">Explore Our Finest Luxury Pens</h2>
+  <div class="products-grid">
+    <div class="product-card">
+      <img src="https://i.ibb.co/CKmHQ9X3/luxpen1.jpg" alt="Luxury Pen 1">
+      <h3>Regalia Ebony</h3>
+      <p class="price">$495</p>
+    </div>
+    <div class="product-card">
+      <img src="https://i.ibb.co/yFb5ByKb/luxpen2.jpg" alt="Luxury Pen 2">
+      <h3>Goldstream Elite</h3>
+      <p class="price">$572</p>
+    </div>
+    <div class="product-card">
+      <img src="https://i.ibb.co/B5r66svY/luxpen3.jpg" alt="Luxury Pen 3">
+      <h3>Inkspire Noir</h3>
+      <p class="price">$431</p>
+    </div>
+    <div class="product-card">
+      <img src="https://i.ibb.co/YT3QtXyG/luxpen4.jpg" alt="Luxury Pen 4">
+      <h3>Velvet Crest</h3>
+      <p class="price">$558</p>
+    </div>
+    <div class="product-card">
+      <img src="https://i.ibb.co/yBqXW9jB/luxpen5.jpg" alt="Luxury Pen 5">
+      <h3>Imperial Aura</h3>
+      <p class="price">$422</p>
+    </div>
+    <div class="product-card">
+      <img src="https://i.ibb.co/GvBjXXL3/luxpen6.jpg" alt="Luxury Pen 6">
+      <h3>Crimson Oak</h3>
+      <p class="price">$499</p>
+    </div>
+  </div>
+</section>
+ <section class="product-grid-section">
+  <h2 class="section-heading">Explore Our Signature Luxury Pens</h2>
+  <div class="product-grid">
+    <a href="#pen1" class="product-card" onclick="showPenDetail(1)">
+      <img src="https://i.ibb.co/CKmHQ9X3/luxpen1.jpg" alt="Luxury Pen 1">
+      <h3>$475</h3>
+    </a>
+    <a href="#pen2" class="product-card" onclick="showPenDetail(2)">
+      <img src="https://i.ibb.co/yFb5ByKb/luxpen2.jpg" alt="Luxury Pen 2">
+      <h3>$590</h3>
+    </a>
+    <a href="#pen3" class="product-card" onclick="showPenDetail(3)">
+      <img src="https://i.ibb.co/B5r66svY/luxpen3.jpg" alt="Luxury Pen 3">
+      <h3>$430</h3>
+    </a>
+    <a href="#pen4" class="product-card" onclick="showPenDetail(4)">
+      <img src="https://i.ibb.co/YT3QtXyG/luxpen4.jpg" alt="Luxury Pen 4">
+      <h3>$525</h3>
+    </a>
+    <a href="#pen5" class="product-card" onclick="showPenDetail(5)">
+      <img src="https://i.ibb.co/yBqXW9jB/luxpen5.jpg" alt="Luxury Pen 5">
+      <h3>$610</h3>
+    </a>
+    <a href="#pen6" class="product-card" onclick="showPenDetail(6)">
+      <img src="https://i.ibb.co/GvBjXXL3/luxpen6.jpg" alt="Luxury Pen 6">
+      <h3>$460</h3>
+    </a>
+  </div>
+</section>
+
+<!-- Hidden Pen Detail Section (Simulates separate page) -->
+<div id="pen-detail-container" class="pen-detail" style="display:none;"></div>
